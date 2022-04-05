@@ -11,7 +11,9 @@ namespace Basicproblems
         static void Main(string[] args)
         {
             Console.WriteLine("welcome to basic problems");
+            Swap swap = new Swap();
+            Swap.SwapNumbers();
             Console.ReadLine();
         }
     }
-}
+} 
