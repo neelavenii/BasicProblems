@@ -13,6 +13,9 @@ namespace Basicproblems
             Console.WriteLine("welcome to basic problems");
             Swap swap = new Swap();
             Swap.SwapNumbers();
+            EvenOdd evenOdd = new EvenOdd();
+            EvenOdd.CheckEvenOdd();
+            
             Console.ReadLine();
         }
     }
