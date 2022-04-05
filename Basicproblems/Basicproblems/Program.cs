@@ -15,7 +15,12 @@ namespace Basicproblems
             Swap.SwapNumbers();
             EvenOdd evenOdd = new EvenOdd();
             EvenOdd.CheckEvenOdd();
-            
+            VowelConsonant vowelConsonant = new VowelConsonant();
+            VowelConsonant.Charactor();
+            Harmonic harmonic = new Harmonic();
+            Harmonic.HarmonicNumbers();
+
+
             Console.ReadLine();
         }
     }
